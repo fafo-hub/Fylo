@@ -1,0 +1,467 @@
+@font-face {
+    font-family: Open Sans;
+    src: url("(https://fonts.google.com/specimen/Open+Sans)");
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main {
+    height: 100px;
+    margin: auto;
+}
+.nav {
+    background-color: white;
+    height: 89px;
+    width: 90%;
+    margin: auto;
+}
+.nav-words {
+    text-align: right;
+    font-size: 35px;
+    word-spacing: 65px;
+    padding-right: 100px;
+} 
+.nav img {
+    width: 149px;
+    float: left;
+}
+@media screen and (max-width: 900px) {
+    #main {
+        width: 1034px;
+    }
+    .nav {
+        width: 90%;
+        margin: auto;
+    }
+} 
+#section-A {
+    margin-top: 50px;
+}
+.container-a {
+    display: grid;
+    grid-template-columns: 600px auto;
+    margin-top: 75px;
+    width: 90%;
+    margin: auto;
+}
+.file-info {
+    background-color: white;
+}
+.file-info h2 {
+    font-weight: lighter;
+}
+.file-info p {
+    font-size: 45px;
+    font-weight: 600;
+}
+.img-a {
+    background-color: white;;
+    
+}
+.img-a img {
+    width: 100%;
+    height: 30em;
+}
+.file-info p {
+    font-size: 45px;
+}
+.mail {
+    float: left;
+    width: 19rem;
+    height: 30px;
+    border: 1px solid;
+}
+#Start {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 45px;
+    background-color: cornflowerblue;
+    color: black;
+    width: 18rem;
+    height: 50px;
+    
+}
+.reset {
+    float: right;
+    width:15rem;
+    height: 30px;
+    margin-right: 40px;
+    background: hsl(224, 93%, 58%);
+    border-top-color: hsl(224, 93%, 58%);
+    border-left-color: hsl(224, 93%, 58%);
+}
+@media screen and (max-width: 900px) {
+    #section-A {
+        width: 1034px;
+    }
+    .container-a {
+        display: flex;
+        flex-direction: column;
+    }
+    .file-info {
+        order: 2;
+    }
+    .img-a {
+        order: 1;
+    }
+    .img-a img {
+
+    }
+    .file-info p{
+        font-size: 64px;
+        text-align: center;
+    }
+    .file-info h2 {
+        width: unset;
+        text-align: center;
+        font-size: 39px
+    }
+    .btn {
+        width: unset;
+    }
+    .mail {
+        position: relative;
+        left: 255px;
+        height: 49px;
+        width: 22rem;
+        font-size: 30px;
+        top: -9px;
+    }
+    .reset {
+        margin-right: 0px;
+        position: relative;
+        top: 53px;
+        left: -320px;
+        width: 354px;
+        height: 49px;
+        font-size: 25px;
+    }
+}   
+#section-B .sec-2-img {
+    position: absolute;
+    background: url("images/bg-curve-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+}
+.container-2 { 
+    display: grid;
+    grid-template-columns: 600px auto;
+    position: relative;
+    top: 168px;
+    width: 90%;
+    margin: auto;
+}
+.img-b {
+    
+}
+.image {
+    width: 92%;
+}
+.info-p {
+    font-size: 40px;
+    font-weight: 600;
+}
+.file-info-2 h2 {
+    font-weight: lighter;
+}
+.file-info-2 a{
+    font-size: 30px;
+    color: green;
+}
+.founder {
+    display: inline-block;
+    width: 25em;
+    height: 265px;
+    position: relative;
+    left: 65px;
+    top: 105px;
+    background-color: white;
+}
+.quotes {
+    width: 25px;
+}
+.f-contents p {
+    font-size: 19px;
+}
+.f-contents {
+    width: 90%;
+    margin: auto;
+}
+.avatar {
+    float: left;
+    border-radius: 90px;
+    width: 80px;
+}
+.MainP {
+    position: relative;
+    top: 8px;
+    left: 10px
+}
+.profile {
+    font-size: 30px;
+    font-weight: 600;
+}
+.profile-2 {
+    font-size: 25px;
+}
+@media screen and (max-width: 900px) {
+    #section-B {
+        width: 1034px;
+    }
+   #section-B .sec-2-img {
+    width: 1034px;
+    height: 241%;
+    }
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .file-info-2 {
+        order: 2;
+    }
+    .img-b {
+        order: 1;
+    }
+    .info-p {
+        font-size: 55px;
+        text-align: center;
+    }
+    .file-info-2 h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+    .file-info-2 a {
+        font-size: 47px;
+        position: relative;
+        left: 234px;
+        top: 40px;
+    }
+    .founder {
+        position: relative;
+        top: 287px;
+        width: 38em;
+        height: 421px;
+        left: 189px;
+    }
+    .f-contents p {
+        font-size: 34px;
+    }
+    .arrow {
+        width: 50px;
+    }
+}
+#C {
+   
+    background-color: hsl(238, 22%, 44%);
+    position: relative;
+    top: 125px;
+    height: 14em;
+}
+.container-3 {
+    display: grid;
+    grid-template-columns: 600px auto;
+    width: 90%;
+    margin: auto;
+}
+.access {
+    color: white;
+}
+.access-1p {
+    font-size: 30px;
+}
+.access-2p {
+    font-size: 20px;
+}
+.start {
+    align-self: flex-end;
+}
+.email {
+    height: 40px;
+    width: 24rem;
+    font-size: 18px;
+}
+.submit {
+    height: 40px;
+    width: 12rem;
+    background: hsl(224, 93%, 58%);
+    margin-top: 10px;
+    border-bottom-color: hsl(224, 93%, 58%);
+    border-right-color: hsl(224, 93%, 58%);
+    border-left-color: hsl(224, 93%, 58%);
+    border-top-color: hsl(224, 93%, 58%);
+}
+@media screen and (max-width: 900px) {
+    #C {
+        width: 1034px;
+        position: relative;
+        top: 406px;
+        height: 30em;
+    }
+    .container-3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .access {
+        text-align: center;
+    }
+    .start {
+        position: relative;
+        left: -266px;
+    }
+    .access-1p {
+        font-size: 45px;
+        font-weight: 800;
+    }
+    .access-2p {
+        font-size: 35px;
+    }
+    .email {
+        height: 46px;
+        width: 25rem;
+        font-size: 25px;
+    }
+    .submit {
+        height: 46px;
+        width: 25rem;
+        font-size: 25px;
+    }
+}
+#footer {
+    background-color: hsl(243, 87%, 12%); 
+    position: relative;
+    top: 125px;
+    height: 35em;
+}
+.container-4 {
+    display: grid;
+    grid-template-rows: auto;
+    width: 90%;
+    margin: auto;
+    padding-top: 75px;
+
+}
+.container-5 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px auto;
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+}
+.left {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+.middle-1 {
+    background-color: hsl(243, 87%, 12%);
+}
+.middle-1 h2 {
+    margin-top: 0px;
+    color: white;
+}
+.middle-2 h2 {
+    margin-top: 0px;
+    color: white;
+}
+.middle-2 {
+    background-color: hsl(243, 87%, 12%);
+}
+.right {
+    background-color: hsl(243, 87%, 12%);
+}
+.FB {
+    width: 24px;
+}
+.twitter {
+    width: 40px;
+}
+.IG {
+    width: 40px;
+}
+.phone { 
+    float: left;
+    width: 40px;
+}
+.Gmail {
+    float: left;
+    width: 40px;
+}
+.text-2 {
+    position: relative;
+    left: 12px;
+    top: 4px;
+    font-size: 20;
+}
+.text-1 {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-size: 20;
+}
+@media screen and (max-width: 900px) {
+    #footer {
+        width: 1034px;
+        position: relative;
+        top: 406px;
+        height: 100em;
+}
+.container-4 {
+
+}
+.footer-img {
+    width: 40%;
+}
+.container-5 {
+    display: flex;
+    flex-direction: column;
+}
+.phone {
+    width: 76px;
+}
+.Gmail {
+    width: 111px;
+    position: relative;
+    left: -94px;
+    top: 20px;
+}
+.text-2 {
+    position: relative;
+    left: 12px;
+    top: 4px;
+    font-size: 32px;
+    position: relative;
+    top: 22px;
+    left: 30px;
+}
+.text-1 {
+    position: relative;
+    left: -87px;
+    top: 45px;
+    font-size: 40px;
+}
+.middle-1 {
+    position: relative;
+    top: 65px;
+    font-size: 30px;
+}
+.middle-2 {
+    position: relative;
+    top: 80px;
+    font-size: 30px;
+}
+.right {
+    position: relative;
+    top: 70px;
+    left: 365px;
+    width: fit-content;
+}
+    }
